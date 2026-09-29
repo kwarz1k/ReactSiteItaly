@@ -1,0 +1,67 @@
+.Brigada{
+    width: 100vw;
+    height: 1384px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../assets/grenka.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .Centr{
+        width: 1100px;
+        height: 1164px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        h1{
+            font-size: 80px;
+            color: #311F09;
+        }
+        .Girl{
+            width: 617px;
+            height: 698px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            text-align: center;
+            h1{
+                font-size: 30px;
+                color: #311F09;
+            }
+            p{
+                font-size: 20px;
+                color: #5C4529;
+            }
+            .text{
+                width: 600px;
+                height: 30px;
+                display: flex;
+                font-size: 50px;
+                p{
+                    font-size: 50px;
+                    color: #311F09;
+                }
+            }
+            .text1{
+                width: 600px;
+                height: 20px;
+                display: flex;
+                justify-content: end;
+                align-items: start;
+                p{
+                    font-size: 50px;
+                    color: #311F09;
+                }
+            }
+        }
+        .agusha{
+            width: 1063px;
+            height: 250px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.Nileto{
+    width: 100vw;
+    height: 1056px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFAF5;
+    .centr{
+        width: 1378px;
+        height: 904px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .pravo{
+            width: 453px;
+            height: 492px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: start;
+            h1{
+                font-size: 80px;
+                color: #311F09;
+                span{
+                    color: #FF8A00;
+                }
+            }
+            p{
+                font-size: 20px;
+                color: #5C4529;
+            }
+            .AYF{
+                width: 232px;
+                height: 74px;
+                border: none;
+                border-radius: 30px;
+                font-size: 20px;
+                color: white;
+                background-color: #FF8A00;
+                cursor: pointer;
+            }
+        }
+    }
+}

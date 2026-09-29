@@ -1,0 +1,48 @@
+.Moscow{
+    width: 100vw;
+    height: 969px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECFAF1;
+    .Centr{
+        width: 1185px;
+        height: 689px;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        .Raz{
+            width: 718px;
+            height: 689px;
+        }
+        .Dva{
+            width: 433px;
+            height: 592px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: start;
+            h1{
+                color: #311F09;
+                font-size: 80px;
+                span{
+                    color: #FF8A00;
+                }
+            }
+            p{
+                font-size: 25px;
+                color: #5C4529;
+            }
+            .Tigr{
+                width: 232px;
+                height: 74px;
+                font-size: 20px;
+                background-color: #FF8A00;
+                border-radius: 30px;
+                border: none;
+                cursor: pointer;
+                color: white;
+            }
+        }
+    }
+}

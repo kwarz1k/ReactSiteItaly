@@ -1,0 +1,68 @@
+.Les{
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .pivo{
+        width: 1150px;
+        height: 588px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../../assets/god.png);
+        .Trevis{
+            width: 595px;
+            height: 481px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            h1{
+                font-size: 80px;
+                color: white;
+            }
+            .kruto{
+                width: 369px;
+                height: 215px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                h1{
+                    font-size: 40px;
+                    color: white;
+                }
+                p{
+                    font-size: 20px;
+                    color: white;
+                }
+            }
+            .Ananas{
+                width: 488px;
+                height: 74px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                .kopna{
+                    width: 232px;
+                    height: 74px;
+                    border: none;
+                    border-radius: 30px;
+                    font-size: 20px;
+                    color: white;
+                    background-color: #FF8A00;
+                }
+                .CJ{
+                    width: 232px;
+                    height: 74px;
+                    border: none;
+                    border-radius: 30px;
+                    font-size: 20px;
+                    color: black;
+                    background-color: white;
+                }
+            }
+        }
+    }
+}

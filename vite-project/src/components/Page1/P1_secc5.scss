@@ -1,0 +1,51 @@
+.Agutin{
+    width: 100vw;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Centr{
+        width: 1112px;
+        height: 1238px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        h1{
+            font-size: 80px;
+            color: #311F09;
+        }
+        .kart{
+            width: 1112px;
+            height: 719px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: space-between;
+            .kont{
+                width: 344px;
+                height: 719px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h1{
+                    font-size: 25px;
+                }
+                p{
+                    font-size: 25px;
+                    color: #A08D76;
+                }
+            }
+        }
+        .knopka{
+            width: 235px;
+            height: 74px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            color: white;
+            font-size: 20px;
+            background-color: #FF8A00;
+        }
+    }
+}

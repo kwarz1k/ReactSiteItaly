@@ -1,0 +1,128 @@
+.Saint-Petersburg{
+    width: 100vw;
+    height: 1900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .Madison{
+        width: 1202px;
+        height: 1812px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            color: #311F09;
+            font-size: 80px;
+        }
+        .lenta{
+            width: 1202px;
+            height: 74px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .nopka{
+                width: 232px;
+                height: 74px;
+                background-color: #D0CCC7;
+                color: black;
+                border: none;
+                border-radius: 30px;
+                font-size: 20px;
+                cursor: pointer;
+            }
+            .nopka:hover{
+                background-color: #311F09;
+                color: white;
+            }
+        }
+        .leva2k{
+            width: 1202px;
+            height: 1314px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            .kont{
+                width: 344px;
+                height: 637px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                background-color: #FBFAFA;
+                border-radius: 60px;
+                h1{
+                    font-size: 30px;
+                    color: #311F09;
+                }
+                p{
+                    color: #59442B;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                .Hodinskaya{
+                    width: 271px;
+                    height: 55px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    color: #311F09;
+                    font-size: 25px;
+                    .nopka{
+                    width: 158px;
+                    height: 55px;
+                    font-size: 20px;
+                    background-color: #FF8A00;
+                    border-radius: 30px;
+                    border: none;
+                    cursor: pointer;
+                    color: white;
+                    }
+                }
+            }
+        }
+        .leto2026{
+            width: 435px;
+            height: 55px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .cifra{
+                width: 55px;
+                height: 55px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #FF8A00;
+                font-size: 20px;
+                border-radius: 15px;
+                background-color: #FFF4E6;
+            }
+            .toch{
+                width: 55px;
+                height: 55px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                color: gray;
+                font-size: 26px;
+            }
+            .strlk{
+                width: 55px;
+                height: 55px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 15px;
+                background-color: #311F09;
+                cursor: pointer;
+                p{
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,14 +1,30 @@
 import "../Page1/P1_secc6.scss"
 import { Photo } from "../../Photo"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Pagination, Navigation } from 'swiper/modules';
 export default function App(){
     return(
         <>
             <section className="Brigada">
                 <div className="Centr">
                     <h1>Our customers say</h1>
-                    <div className="Girl">
-                        <img src={Photo.brigada}></img>
-                        <h1>Starla Virgoun</h1>
+                <Swiper
+                    slidesPerView={1}
+                    spaceBetween={30}
+                    loop={true}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    navigation={false}
+                    className="mySwiper"
+                   >
+                    <SwiperSlide>
+                        <div className="Girl">
+                        <img className="pys" src={Photo.raz}></img>
+                        <h1>Alla Basta</h1>
                         <p>Financial advisor</p>
                         <div className="text">
                             <p>“</p>
@@ -17,7 +33,93 @@ export default function App(){
                         <div className="text1">
                             <p>„</p>
                         </div>
-                    </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="Girl">
+                        <img className="pys" src={Photo.dva}></img>
+                        <h1>Samil'e Virg</h1>
+                        <p>Financial advisor</p>
+                        <div className="text">
+                            <p>“</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ultricies at eleifend proin. Congue nibh nulla malesuada ultricies nec quam </p>
+                        <div className="text1">
+                            <p>„</p>
+                        </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="Girl">
+                        <img className="pys" src={Photo.tri}></img>
+                        <h1>Chelovek Krutoy</h1>
+                        <p>Geekaet</p>
+                        <div className="text">
+                            <p>“</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ultricies at eleifend proin. Congue nibh nulla malesuada ultricies nec quam </p>
+                        <div className="text1">
+                            <p>„</p>
+                        </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="Girl">
+                        <img className="pys" src={Photo.four}></img>
+                        <h1>Niki Minage</h1>
+                        <p>Food Developer</p>
+                        <div className="text">
+                            <p>“</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ultricies at eleifend proin. Congue nibh nulla malesuada ultricies nec quam </p>
+                        <div className="text1">
+                            <p>„</p>
+                        </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="Girl">
+                        <img className="pys" src={Photo.five}></img>
+                        <h1>Starpom</h1>
+                        <p>Financial advisor</p>
+                        <div className="text">
+                            <p>“</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ultricies at eleifend proin. Congue nibh nulla malesuada ultricies nec quam </p>
+                        <div className="text1">
+                            <p>„</p>
+                        </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="Girl">
+                        <img className="pys" src={Photo.six}></img>
+                        <h1>Warpath</h1>
+                        <p>Financial advisor</p>
+                        <div className="text">
+                            <p>“</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ultricies at eleifend proin. Congue nibh nulla malesuada ultricies nec quam </p>
+                        <div className="text1">
+                            <p>„</p>
+                        </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="Girl">
+                        <img className="pys" src={Photo.pudge}></img>
+                        <h1>Mnogotonnik</h1>
+                        <p>Financial advisor</p>
+                        <div className="text">
+                            <p>“</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ultricies at eleifend proin. Congue nibh nulla malesuada ultricies nec quam </p>
+                        <div className="text1">
+                            <p>„</p>
+                        </div>
+                        </div>
+                    </SwiperSlide>
+                </Swiper>
                     <div className="agusha">
                         <img src={Photo.raz}></img>
                         <img src={Photo.dva}></img>

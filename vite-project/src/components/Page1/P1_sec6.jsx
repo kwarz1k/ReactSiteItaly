@@ -24,11 +24,8 @@ export default function App(){
                    >
                     <SwiperSlide>
                         <div className="Girl">
-
                         <img className="pys" src={Photo.raz}></img>
                         <h1>Alla Basta</h1>
-                        <img src={Photo.brigada}></img>
-                        <h1>Starla Virgoun</h1>
                         <p>Financial advisor</p>
                         <div className="text">
                             <p>“</p>
@@ -56,7 +53,6 @@ export default function App(){
                     <SwiperSlide>
                         <div className="Girl">
                         <img className="pys" src={Photo.tri}></img>
-                        <img src={Photo.five}></img>
                         <h1>Chelovek Krutoy</h1>
                         <p>Geekaet</p>
                         <div className="text">
@@ -70,9 +66,7 @@ export default function App(){
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="Girl">
-
                         <img className="pys" src={Photo.four}></img>
-                        <img src={Photo.dva}></img>
                         <h1>Niki Minage</h1>
                         <p>Food Developer</p>
                         <div className="text">

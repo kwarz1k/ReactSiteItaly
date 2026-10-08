@@ -1,0 +1,71 @@
+.FAQ{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .centr{
+        width: 60vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        .faq__item {
+          margin-bottom: 14px;
+          background: #faf9f6;
+          border-radius: 28px;
+        }
+
+        .faq__question {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 16px;
+          width: 100%;
+          padding: 18px 20px 18px 28px;
+          border: none;
+          background-color: beige;
+          border-radius: 20px;
+          color: inherit;
+          font: inherit;
+          font-weight: 500;
+          text-align: left;
+          cursor: pointer;
+        }
+
+        .faq__icon {
+          display: grid;
+          place-items: center;
+          width: 34px;
+          height: 34px;
+          border-radius: 50%;
+          background: #fff;
+          color: #f0902f;
+          font-size: 22px;
+        }
+
+        .faq__item--open .faq__icon {
+          background: brown;
+          border: 2px solid black;
+          color: #fff;
+          transform: rotate(45deg);
+        }
+
+        .faq__answer {
+          display: none;
+          border-radius: 20px;
+          border: 3px solid gainsboro;
+        }
+
+        .faq__item--open .faq__answer {
+          display: block;
+        }
+
+        .faq__answer p {
+          margin: 0;
+          padding: 0 28px 22px;
+          font-size: 14px;
+          line-height: 1.8;
+        }
+    }
+}
